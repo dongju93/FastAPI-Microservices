@@ -9,3 +9,6 @@
 ## Redis
 ### Event streaming
 Rest 형식의 Json 데이터 송수신
+
+#### - Taking the course
+    https://www.youtube.com/watch?v=Cy9fAvsXGZA
