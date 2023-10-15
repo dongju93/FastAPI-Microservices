@@ -1,14 +1,24 @@
-## React
-### JavaScript
-프론트엔드 구현
-
-## Fast API
-### Python
-마이크로서비스 구현
-
-## Redis
-### Event streaming
-Rest 형식의 Json 데이터 송수신
-
-#### - Taking the course
+#### service_frontend MICROSERVICE
+    - JavaScript
+    - React
+    - NodeJS
+    - Jest
+---
+#### product_service & purchase_service MICROSERVICE
+    - Python
+    - FastAPI
+    - Uvicorn
+    - Redis (Event streaming)
+---
+---
+##### Taking the course
     https://www.youtube.com/watch?v=Cy9fAvsXGZA
+---
+##### Commands
+```
+// Active virtual environments
+source venv/bin/activate
+
+// Run fastapi web sevice
+uvicorn main:app --reload --port=8001
+```
